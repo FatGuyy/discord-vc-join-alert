@@ -4,41 +4,37 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import os
-import time
+from selenium.webdriver.chrome.options import Options
 
-os.environ['PATH'] += r'.chromedriver.chromedriver.exe' 
-driver = webdriver.Chrome()
+path = os.path.join(os.getcwd(),'chrome-data') 
+chrome_options = Options()
+chrome_options.add_argument(f"--user-data-dir={path}")
+driver = webdriver.Chrome('chromedriver.exe',options=chrome_options)
 driver.get('https://discord.com/login')
 
-print('\n Waiting for user to  login... Login using scanner or entering your mail and pass \n')
-driver.implicitly_wait(15)
-#time.sleep(10)
-#WebDriverWait(driver, timeout).until(element_present)
-#vc_members = driver.find_elements(by=By.CSS_SELECTOR, value='.usernameFont-2oJxoI')
+
 try:
     vc_members = WebDriverWait(driver, 100).until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".usernameFont-2oJxoI")))
 except TimeoutException:
     print('time out for login.')
 
- 
+for vc_member in vc_members:
+    print(vc_member.text)
+
 voice_channels = []
 vc_names=[]
 channels = driver.find_elements(By.XPATH, value='/html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div/div[1]/nav/div[4]/ul/li')
 limit = len(channels)
-print(channels , '\n\n', limit)
 channels=[]
 
 for indx in range(1, limit+2):
     try:
-        print('here.')
-        channels.append(driver.find_element(By.XPATH,value=f'/html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div/div[1]/nav/div[4]/ul/li[{indx}]/div/div/div/a'))
+        channels.append(driver.find_element_by_xpath(f'/html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div/div[1]/nav/div[4]/ul/li[{indx}]/div/div/div/a'))
+        #channels.append(driver.find_element(By.XPATH,value=f'/html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div/div[1]/nav/div[4]/ul/li[{indx}]/div/div/div/a'))
     except:
         continue
 
-print(len(channels), type(channels))
-
 #General (voice channel), 1 user
-#res = test_string.partition(spl_word)[0]
 for channel in channels:
     aria_label = channel.get_attribute('aria-label')
     if "(voice channel)" in aria_label:
@@ -57,12 +53,5 @@ print('v channels : ', voice_channels, '\n\n','vc names :', vc_names, '\n\n')
 #     for people in peoples:
 #         name = people.text   
 #         print(name)
-
-
-if __name__ == '__main__':
-    pass
-    # for i in range(len(vc_members)):
-    #     print(vc_members[i].text)
-    # time.sleep(5)
 
 driver.close()
