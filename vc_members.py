@@ -10,7 +10,7 @@ path = os.path.join(os.getcwd(),'chrome-data')
 chrome_options = Options()
 chrome_options.add_argument(f"--user-data-dir={path}")
 driver = webdriver.Chrome('chromedriver.exe',options=chrome_options)
-driver.get('https://discord.com/login')
+driver.get('https://discord.com/channels/@me')
 
 
 try:
@@ -18,8 +18,8 @@ try:
 except TimeoutException:
     print('time out for login.')
 
-for vc_member in vc_members:
-    print(vc_member.text)
+# for vc_member in vc_members:
+#     print(vc_member.text)
 
 voice_channels = []
 vc_names=[]
@@ -30,10 +30,13 @@ channels=[]
 for indx in range(1, limit+2):
     try:
         channels.append(driver.find_element_by_xpath(f'/html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div/div[1]/nav/div[4]/ul/li[{indx}]/div/div/div/a'))
-        #channels.append(driver.find_element(By.XPATH,value=f'/html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div/div[1]/nav/div[4]/ul/li[{indx}]/div/div/div/a'))
     except:
         continue
 
+
+#/html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div[2]/div[1]/nav/div[4]/ul/li[10]/div[2]/div[2]/div/div/div[2]
+#/html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div[2]/div[1]/nav/div[4]/ul/li[10]/div[2]/div[1]/div/div/div[2]
+vc_with_members = []
 #General (voice channel), 1 user
 for channel in channels:
     aria_label = channel.get_attribute('aria-label')
@@ -41,17 +44,24 @@ for channel in channels:
         name = str(aria_label).partition('(voice channel)')[0]
         vc_names.append(name)
         voice_channels.append(channel)
+        single_member = []
+        single_member.append(name)
+        #number of members in vc
+        res = aria_label.split(',', 1)
+        splitString = res[1]
+        #print((splitString[:2]).strip())
+        single_member.append((splitString[:2]).strip())
+        vc_with_members.append(single_member)
+print('\n\n', 'vc_with_members :')
+print(vc_with_members, '\n\n')
+
+
+voice_members_as_channels = []
+# for indx in range():
+#     vc_member = driver.find_element_by_xpath(f'/html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div[2]/div[1]/nav/div[4]/ul/li[10]/div[2]/div[{indx}]/div/div/div[2]')
+#     voice_members_as_channels.append(vc_member)
+
 
 print('v channels : ', voice_channels, '\n\n','vc names :', vc_names, '\n\n')
-
-# for indx,channel in enumerate(channels):
-#     if channel.get_attribute('aria-label') == 'Voice':
-#         voice_channels.append(indx)
-# for indx in voice_channels:
-#     peoples = driver.find_elements(by=By.XPATH,value=f"/html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div/div[1]/nav/div[4]/ul/li[{indx}]/div[2]/div[1]/div/div/div")
-#     print(indx)
-#     for people in peoples:
-#         name = people.text   
-#         print(name)
 
 driver.close()
