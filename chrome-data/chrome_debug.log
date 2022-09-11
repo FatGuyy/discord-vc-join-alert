@@ -1,296 +1,208 @@
-[8404:31040:0908/200147.412:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", source:  (0)
-[8404:31040:0908/200147.435:INFO:CONSOLE(41)] "[FAST CONNECT] connecting to: wss://gateway.discord.gg/?encoding=json&v=9&compress=zlib-stream", source: https://discord.com/channels/@me (41)
-[8404:31040:0908/200147.584:INFO:CONSOLE(130)] "%c[Logger.tsx] 
+[19288:13328:0911/115659.389:INFO:CONSOLE(1121)] "Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: chrome://resources/roboto/roboto-regular.woff2", source: chrome://new-tab-page/new_tab_page.js (1121)
+[19288:13328:0911/115659.639:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", source:  (0)
+[19288:13328:0911/115659.682:INFO:CONSOLE(41)] "[FAST CONNECT] connecting to: wss://gateway.discord.gg/?encoding=json&v=9&compress=zlib-stream", source: https://discord.com/channels/@me (41)
+[19288:13328:0911/115659.957:INFO:CONSOLE(130)] "%c[Logger.tsx] 
 font-weight: bold;
 color: purple;
- Logger has loaded", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200147.649:INFO:CONSOLE(130)] "%c[default] 
+ Logger has loaded", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115700.098:INFO:CONSOLE(130)] "%c[default] 
 font-weight: bold;
 color: purple;
- [BUILD INFO] Release Channel: stable, Build Number: 145978, Version Hash: cf25b0e8b91431bbdb0ef5786d37923e2ab97976", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200147.649:INFO:CONSOLE(130)] "AppCrashedFatalReport: getLastCrash not supported.", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200147.846:INFO:CONSOLE(130)] "Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.
+ [BUILD INFO] Release Channel: stable, Build Number: 146284, Version Hash: 57b3d6d7af6ca8efebef89c4d5afcc78aec417ff", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115700.099:INFO:CONSOLE(130)] "AppCrashedFatalReport: getLastCrash not supported.", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115700.170:INFO:CONSOLE(46)] "Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://discord.com/assets/24bda95d153a319704c33329f3ab84bb.woff2", source: https://discord.com/channels/@me (46)
+[19288:13328:0911/115700.488:INFO:CONSOLE(130)] "Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.
 Arguments: 
 [0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 5/13/2022 10:00 -0800, _f: undefined, _strict: undefined, _locale: [object Object]
 Error
-    at Function.createFromInputFallback (https://discord.com/assets/33ba8ff72198b103bd9a.js:5833:330)
-    at Bn (https://discord.com/assets/33ba8ff72198b103bd9a.js:5859:696)
-    at Kn (https://discord.com/assets/33ba8ff72198b103bd9a.js:5862:356)
-    at Wn (https://discord.com/assets/33ba8ff72198b103bd9a.js:5862:199)
-    at jn (https://discord.com/assets/33ba8ff72198b103bd9a.js:5861:886)
-    at zn (https://discord.com/assets/33ba8ff72198b103bd9a.js:5862:697)
-    at Xn (https://discord.com/assets/33ba8ff72198b103bd9a.js:5862:731)
-    at i (https://discord.com/assets/33ba8ff72198b103bd9a.js:5829:961)
-    at 962314 (https://discord.com/assets/8efba3128d0fd28624c2.js:1816:332)
-    at l (https://discord.com/assets/a5685e4ec8854a2da0ef.js:1:154)
-    at 72840 (https://discord.com/assets/8efba3128d0fd28624c2.js:1648:170)
-    at l (https://discord.com/assets/a5685e4ec8854a2da0ef.js:1:154)
-    at 900993 (https://discord.com/assets/8efba3128d0fd28624c2.js:64:175)
-    at l (https://discord.com/assets/a5685e4ec8854a2da0ef.js:1:154)
-    at 101327 (https://discord.com/assets/8efba3128d0fd28624c2.js:173:57)
-    at l (https://discord.com/assets/a5685e4ec8854a2da0ef.js:1:154)
-    at 206566 (https://discord.com/assets/8efba3128d0fd28624c2.js:179:912)
-    at l (https://discord.com/assets/a5685e4ec8854a2da0ef.js:1:154)
-    at 998872 (https://discord.com/assets/d6c701f3fe179aa3e095.js:224:237)
-    at Function.l (https://discord.com/assets/a5685e4ec8854a2da0ef.js:1:154)", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200148.328:INFO:CONSOLE(1393)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://discord.com/assets/8efba3128d0fd28624c2.js (1393)
-[8404:31040:0908/200148.393:INFO:CONSOLE(130)] "[DEPRECATED] Please use `subscribeWithSelector` middleware", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200148.862:INFO:CONSOLE(130)] "%c[GatewaySocket] 
+    at Function.createFromInputFallback (https://discord.com/assets/d5cbd5f8612f13300561.js:5837:330)
+    at Bn (https://discord.com/assets/d5cbd5f8612f13300561.js:5863:696)
+    at Kn (https://discord.com/assets/d5cbd5f8612f13300561.js:5866:356)
+    at Wn (https://discord.com/assets/d5cbd5f8612f13300561.js:5866:199)
+    at jn (https://discord.com/assets/d5cbd5f8612f13300561.js:5865:886)
+    at zn (https://discord.com/assets/d5cbd5f8612f13300561.js:5866:697)
+    at Xn (https://discord.com/assets/d5cbd5f8612f13300561.js:5866:731)
+    at i (https://discord.com/assets/d5cbd5f8612f13300561.js:5833:961)
+    at 962314 (https://discord.com/assets/156f61209016dbdf3090.js:1816:332)
+    at l (https://discord.com/assets/990028374db60e50af3a.js:1:154)
+    at 72840 (https://discord.com/assets/156f61209016dbdf3090.js:1648:170)
+    at l (https://discord.com/assets/990028374db60e50af3a.js:1:154)
+    at 900993 (https://discord.com/assets/156f61209016dbdf3090.js:64:175)
+    at l (https://discord.com/assets/990028374db60e50af3a.js:1:154)
+    at 101327 (https://discord.com/assets/156f61209016dbdf3090.js:173:57)
+    at l (https://discord.com/assets/990028374db60e50af3a.js:1:154)
+    at 206566 (https://discord.com/assets/156f61209016dbdf3090.js:179:912)
+    at l (https://discord.com/assets/990028374db60e50af3a.js:1:154)
+    at 998872 (https://discord.com/assets/83b4be4dcd85ffa2c428.js:224:237)
+    at Function.l (https://discord.com/assets/990028374db60e50af3a.js:1:154)", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115700.876:INFO:CONSOLE(1393)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://discord.com/assets/156f61209016dbdf3090.js (1393)
+[19288:13328:0911/115701.012:INFO:CONSOLE(130)] "[DEPRECATED] Please use `subscribeWithSelector` middleware", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115701.840:INFO:CONSOLE(130)] "[FAST CONNECT] connected in 2172ms", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115701.870:INFO:CONSOLE(130)] "%c[GatewaySocket] 
 font-weight: bold;
 color: purple;
- [CONNECT] wss://gateway.discord.gg, encoding: json, version: 9, compression: zlib-stream", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200148.862:INFO:CONSOLE(130)] "[FAST CONNECT] successfully took over websocket, state: [object Object]", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200148.869:INFO:CONSOLE(130)] "%c[GatewaySocket] 
+ [CONNECT] wss://gateway.discord.gg, encoding: json, version: 9, compression: zlib-stream", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115701.871:INFO:CONSOLE(130)] "[FAST CONNECT] successfully took over websocket, state: [object Object]", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115701.871:INFO:CONSOLE(130)] "%c[GatewaySocket] 
 font-weight: bold;
 color: purple;
- [CONNECTED] wss://gateway.discord.gg/?encoding=json&v=9&compress=zlib-stream in 7 ms", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200148.869:INFO:CONSOLE(130)] "%c[ConnectionStore] 
+ [CONNECTED] wss://gateway.discord.gg/?encoding=json&v=9&compress=zlib-stream in 0 ms", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115701.872:INFO:CONSOLE(130)] "%c[ConnectionStore] 
 font-weight: bold;
 color: purple;
- handleIdentify called [object Object]", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200148.869:INFO:CONSOLE(130)] "%c[GatewaySocket] 
+ handleIdentify called [object Object]", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115701.872:INFO:CONSOLE(130)] "%c[GatewaySocket] 
 font-weight: bold;
 color: purple;
- [IDENTIFY]", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200148.937:INFO:CONSOLE(130)] "%c[GatewaySocket] 
+ [IDENTIFY]", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115701.895:INFO:CONSOLE(130)] "%c[GatewaySocket] 
 font-weight: bold;
 color: purple;
  [HELLO] via 
-gateway-prd-main-t1dn: 0, heartbeat interval: 41250, took 74 ms", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200150.142:INFO:CONSOLE(130)] "%c[GatewaySocket] 
+gateway-prd-main-vdh7: 0, heartbeat interval: 41250, took 24 ms", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115703.154:INFO:CONSOLE(130)] "%c[GatewaySocket] 
 font-weight: bold;
 color: purple;
- [READY] took 1279ms, as 31a61d10490d54a4c69667c3779bdd4f via 
-gateway-prd-main-t1dn: 221.417
-|  id_created: 0.795
-|  session_lookup_time: 10.428
-|  session_lookup_finished: 0.016
-|  discord-sessions-green-prd-2-88: 203.149
-|  |  start_session: 104.031
-|  |  |  discord-api-cc89c97b9-r7mtt: 90.367
-|  |  |  |  get_user: 20.546
-|  |  |  |  get_guilds: 46.219
-|  |  |  |  user_settings_proto: 0.123
-|  |  |  |  relationships: 8.66
-|  |  |  |  friend_suggestion: 0.061
-|  |  |  |  connections: 0.02
-|  |  |  |  serialized_read_states: 0.006
-|  |  |  |  pending_payments: 0.002
-|  |  |  |  send_scheduled_deletion_message: 0.002
-|  |  |  |  sanitize_premium_perks: 0.002
-|  |  |  |  guild_join_requests: 0.002
+ [READY] took 1283ms, as 6440faea328a9d668cc09daf1807a9e4 via 
+gateway-prd-main-vdh7: 190.489
+|  id_created: 0.474
+|  session_lookup_time: 0.233
+|  session_lookup_finished: 0.015
+|  discord-sessions-blue-prd-2-170: 183.666
+|  |  start_session: 65.402
+|  |  |  discord-api-595d596dbd-cskkc: 56.183
+|  |  |  |  get_user: 9.842
+|  |  |  |  get_guilds: 9.468
+|  |  |  |  user_settings_proto: 0.09
+|  |  |  |  relationships: 22.223
+|  |  |  |  friend_suggestion: 0.052
+|  |  |  |  connections: 0.016
+|  |  |  |  serialized_read_states: 0.005
+|  |  |  |  pending_payments: 0.001
+|  |  |  |  send_scheduled_deletion_message: 0.001
+|  |  |  |  sanitize_premium_perks: 0.001
+|  |  |  |  guild_join_requests: 0.001
 |  |  |  |  user_guild_settings: 0.002
-|  |  |  |  serialized_private_channels: 0.001
-|  |  |  |  experiments: 7.175
-|  |  |  |  affine_user_ids: 0.013
-|  |  |  |  required_action: 0.002
+|  |  |  |  serialized_private_channels: 2.215
+|  |  |  |  experiments: 5.661
+|  |  |  |  affine_user_ids: 0.011
+|  |  |  |  required_action: 0.003
 |  |  |  |  authorized_ip_coro: 0.002
-|  |  starting_guild_connect: 0.068
-|  |  presence_started: 0.379
-|  |  guilds_started: 86.568
-|  |  guilds_connect: 7.652
-|  |  presence_connect: 0.001
-|  |  connect_finished: 7.693
-|  |  build_ready: 3.806
-|  |  optimize_ready: 0.517
-|  |  split_ready: 0.084
-|  |  clean_ready: 0", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200150.152:INFO:CONSOLE(130)] "%c[AuthenticationStore] 
+|  |  starting_guild_connect: 0.044
+|  |  presence_started: 36.965
+|  |  guilds_started: 70.152
+|  |  guilds_connect: 6.611
+|  |  presence_connect: 0
+|  |  connect_finished: 6.626
+|  |  build_ready: 3.978
+|  |  optimize_ready: 0.434
+|  |  split_ready: 0.063
+|  |  clean_ready: 0", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115703.173:INFO:CONSOLE(130)] "%c[AuthenticationStore] 
 font-weight: bold;
 color: purple;
- handleConnectionOpen called [object Object]", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200150.279:INFO:CONSOLE(130)] "%c[GatewaySocket] 
+ handleConnectionOpen called [object Object]", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115703.397:INFO:CONSOLE(130)] "%c[GatewaySocket] 
 font-weight: bold;
 color: purple;
- [READY_SUPPLEMENTAL] took 1416ms", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200152.353:ERROR:device_event_log_impl.cc(214)] [20:01:52.353] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
-[8404:31040:0908/200152.353:ERROR:device_event_log_impl.cc(214)] [20:01:52.353] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
-[8404:31040:0908/200152.505:INFO:CONSOLE(130)] "%c[MessageActionCreators] 
+ [READY_SUPPLEMENTAL] took 1526ms", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115705.616:ERROR:device_event_log_impl.cc(214)] [11:57:05.607] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+[19288:13328:0911/115705.616:ERROR:device_event_log_impl.cc(214)] [11:57:05.607] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+[19288:13328:0911/115706.768:INFO:CONSOLE(130)] "%c[Routing/Utils] 
 font-weight: bold;
 color: purple;
- Fetching messages for 811300603191099473 between undefined and undefined. jump={}", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200152.728:INFO:CONSOLE(130)] "%c[Routing/Utils] 
-font-weight: bold;
-color: purple;
- transitionTo - Transitioning to /channels/811270187843977236/811300603191099473", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200153.139:INFO:CONSOLE(130)] "%c[MessageActionCreators] 
-font-weight: bold;
-color: purple;
- Fetched 2 messages for 811300603191099473 isBefore:false isAfter:false", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200159.242:INFO:CONSOLE(0)] "ResizeObserver loop limit exceeded", source: https://discord.com/channels/811270187843977236/811300603191099473 (0)
-[8404:31040:0908/200200.252:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.252:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.252:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.252:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.252:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.252:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.252:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.252:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.252:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.252:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.252:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.252:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.253:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.253:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.253:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.253:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.253:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.253:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.253:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.253:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.253:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.253:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.254:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.254:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.254:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.254:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.254:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.254:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.254:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.255:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.255:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.255:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.255:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.255:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.255:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.256:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.256:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.256:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.256:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.256:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.256:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.256:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.256:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.256:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.256:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.256:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.257:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.257:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.257:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.257:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.257:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.257:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.257:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.257:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.257:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.257:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.258:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.258:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.258:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.258:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.258:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.258:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.258:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.258:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.258:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.258:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.259:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.259:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.259:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.259:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.259:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.259:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.259:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.259:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.259:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.259:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.259:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.260:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.260:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.260:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.260:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.260:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.260:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.260:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.260:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.260:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.260:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.260:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.261:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.261:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.261:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.261:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.261:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.261:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.261:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.261:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.261:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.261:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.262:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.262:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.262:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.262:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.262:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.262:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.262:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.262:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.262:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.262:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.262:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.263:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.263:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.263:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.263:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.263:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.263:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.264:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.264:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.264:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.265:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.265:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.266:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.266:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.267:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.267:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.267:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.268:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.268:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.268:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.269:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.269:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.269:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.269:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.269:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.270:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.270:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.270:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.270:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.270:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.270:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.270:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.270:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.271:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.271:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.271:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.271:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.271:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.271:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.271:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.271:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.272:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.272:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.272:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.272:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.272:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.272:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.274:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.274:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.274:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.274:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.275:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.275:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.275:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.275:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.275:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.275:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.275:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.275:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.276:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.276:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.276:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.276:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.276:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.276:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.276:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.276:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/5347f3bf4214b8c1bb2e.js (130)
-[8404:31040:0908/200200.412:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+ transitionTo - Transitioning to /channels/505093832157691914/@home", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.543:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.543:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.543:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.543:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.543:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.544:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.544:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.544:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.544:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.545:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.545:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.545:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.545:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.545:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.545:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.545:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.546:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.547:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.547:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.547:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.547:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.547:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.547:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.547:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.548:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.548:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.548:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.548:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.548:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.548:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.549:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.549:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.549:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.549:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.549:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.550:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.550:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.550:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.550:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.550:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.550:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.551:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.551:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.551:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.551:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.551:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.551:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.551:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.551:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.551:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.551:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.551:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.551:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.552:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.552:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.552:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.552:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.552:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.552:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.552:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.552:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.552:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.553:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.553:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.555:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.555:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.556:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.556:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.557:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.557:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.558:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.559:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.560:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.560:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.561:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.562:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.562:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.563:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.563:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.564:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.564:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.564:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.565:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.566:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.566:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.566:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.566:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.566:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.567:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.567:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.567:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.567:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.571:INFO:CONSOLE(130)] "Window state not initialized window-1", source: https://discord.com/assets/29d2f74f0a7702a5e33f.js (130)
+[19288:13328:0911/115713.818:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

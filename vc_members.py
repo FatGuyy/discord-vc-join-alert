@@ -1,3 +1,4 @@
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium.common.exceptions import TimeoutException    
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -13,10 +14,12 @@ chrome_options = Options()
 chrome_options.add_argument(f"--user-data-dir={path}")
 driver = webdriver.Chrome('chromedriver.exe',options=chrome_options)
 driver.get('https://discord.com/channels/@me')
+actions = ActionChains(driver)
+
 
 time.sleep(10)
 scroll_for_all_channels = driver.find_element(By.ID, value='channels')
-scroll_for_all_channels.send_keys(Keys.END)
+scroll_for_all_channels.send_keys(Keys.DOWN)
 try:
     vc_members = WebDriverWait(driver, 100).until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".usernameFont-2oJxoI")))
 except TimeoutException:
@@ -32,7 +35,9 @@ channels=[]
 vc_indx = []
 for indx in range(1, limit+2):
     try:
-        channels.append(driver.find_element_by_xpath(f'/html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div/div[1]/nav/div[4]/ul/li[{indx}]/div/div/div/a'))
+        ch = driver.find_element_by_xpath(f'/html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div/div[1]/nav/div[4]/ul/li[{indx}]/div/div/div/a')
+        #                                   /html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div/div[1]/nav/div[4]/ul/li[18]
+        channels.append(ch)
         vc_indx.append(indx)
     except:
         continue
@@ -71,28 +76,25 @@ voice_members_as_channels = []
 #     xpath = f'/html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div/div[1]/nav/div[4]/ul/li[{indx}]/div/div/div'
 #     xpaths.append(xpath)
 
-#/html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div/div[1]/nav/div[4]/ul/li[9]/div[2]/div/div/div/div[2]
-#/html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div/div[1]/nav/div[4]/ul/li[{indx}]/div/div/div/a
-#/div[2]/div[{indx}]/div/div/div[2]
-#/html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div/div[1]/nav/div[4]/ul/li[9]/div[2]/div/div/div/div[2]
-
-for indx in vc_indx:
-    xpath = f'/html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div/div[1]/nav/div[4]/ul/li[{indx}]' #/div[2]/div[{indx}]/div/div/div[2]
-            #/html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div/div[1]/nav/div[4]/ul/li[26]/div[2]/div[1]/div/div/div[2]
-            #/html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div/div[1]/nav/div[4]/ul/li[26]/div[2]/div[2]/div/div/div[2]
-    for i in range(1,int(limit2)):        
-        try:
-            member = driver.find_element(By.XPATH, value=(xpath+f'/div[2]/div[{i}]/div/div/div[2]'))
-            voice_members_as_channels.append(member)
-            print(member.text)
-        except:
-            print('element not found.')
+# for indx in vc_indx:
+#     xpath = f'/html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div/div[1]/nav/div[4]/ul/li[{indx}]' #/div[2]/div[{indx}]/div/div/div[2]
+#             #/html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div/div[1]/nav/div[4]/ul/li[26]/div[2]/div[1]/div/div/div[2]
+#             #/html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div/div[1]/nav/div[4]/ul/li[26]/div[2]/div[2]/div/div/div[2]
+#     for i in range(1,int(limit2)):        
+#         try:
+#             member = driver.find_element(By.XPATH, value=(xpath+f'/div[2]/div[{i}]/div/div/div[2]'))
+#             voice_members_as_channels.append(member)
+#             print(member.text)
+#         except:
+#             print('element not found.')
 
 for indx in vc_indx:
     i = 0
     limit2 = int(vc_with_members[i][1])
     for i in range(1,(int(limit2+1))):
         try:
+            current_vc = driver.find_element(By.XPATH,value=f'/html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div/div[1]/nav/div[4]/ul/li[{indx}]')
+            actions.move_to_element(current_vc).perform()
             xpath = f'/html/body/div[1]/div[2]/div/div[1]/div/div[2]/div/div[1]/div/div/div[1]/nav/div[4]/ul/li[{indx}]/div[2]/div[{i}]/div/div/div[2]'
             member = driver.find_element(By.XPATH, value=(xpath))
             print(member.text)
